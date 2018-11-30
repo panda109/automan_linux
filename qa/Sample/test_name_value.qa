@@ -1,0 +1,5 @@
+ini			test.ini
+
+start
+include		sub.qa
+end

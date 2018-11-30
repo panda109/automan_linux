@@ -1,0 +1,10 @@
+ini			test.ini
+
+init		browser		chrome
+
+start
+
+#include		sub.qa
+get		Tool		testerror
+
+end

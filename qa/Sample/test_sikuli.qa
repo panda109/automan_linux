@@ -1,0 +1,6 @@
+ini		sikuli.ini
+start
+get		Tool	testerror
+#click	Sikuli	icon		#key#=./img/jpgname.png
+#send	Fb		message		#user#=yr6703@gmail.com,#password#=yr67031!,#message#=testcasename
+end

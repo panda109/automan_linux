@@ -1,0 +1,13 @@
+#ini			system.ini
+#ini			test.ini
+
+init			browser							Chrome	
+
+start
+
+set			browser.Google		textbox_search		#key#=admin
+click		browser.Google		button_submit
+get			Tool	testerror
+sleep		2
+
+end

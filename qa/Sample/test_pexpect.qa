@@ -1,0 +1,19 @@
+start
+
+init	Mypexpect	pexpect
+
+expect	Mypexpect	text	#text#=password:
+
+send	Mypexpect	cmd		#text#=111111
+
+expect	Mypexpect	text	#text#=Password:
+
+$key$=get	Mypexpect	key
+
+$password$=get	Mypexpect	password	#key#=$key$
+
+send	Mypexpect	cmd		#text#=$password$
+
+expect	Mypexpect	text	#text#=#
+
+end

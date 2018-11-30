@@ -1,0 +1,18 @@
+#include		sub.qa
+ini			sikuli.ini
+
+start
+
+each		start		!loop!=2
+list		Tool		dir
+each		end
+
+until		start		!loop!=100
+verify		Tool		file
+until		end
+
+#verify		Tool		file
+list		Tool		dir
+
+
+end
